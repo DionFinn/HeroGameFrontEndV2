@@ -9,8 +9,8 @@ readonly baseUrl: string = "http://DionFinnerty.somee.com/HeroGame/"
   constructor(private _http: HttpClient) { 
 
   }
-  getAllHeroes(): Observable<Hero[]>{
-    return this._http.get<Hero[]>(this.baseUrl + "Hero")
-  }
+  // getAllHeroes(): Observable<Hero[]>{
+  //   return this._http.get<Hero[]>(this.baseUrl + "Hero")
+  // }
 
 }

@@ -31,10 +31,9 @@ rollBtnDisabled: boolean = true;
 resultWinner: string;
 
   constructor() { }
+ ngOnInit() {
 
-  ngOnInit() {
- 
-  }
+ }
 
 
 StartBtn(): void{
